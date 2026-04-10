@@ -78,7 +78,7 @@ section {
 }
 
 table {
-    min-width: 600px;
+    width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
 }
