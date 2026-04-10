@@ -11,7 +11,6 @@ body {
 }
 
 header {
-    /* background: linear-gradient(90deg, #004bcc, #00c6ff); */
     background: white;
     color: #001f3f;
     text-align: center;
@@ -171,14 +170,17 @@ footer {
 
     nav ul {
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: center;
     }
 
     nav ul li {
-         margin: 5px ;
+         margin: 0 5px ;
     }
-
+    nav ul li a {
+        padding: 8px;
+        font-size: 12px;
+        
     header h1 {
         font-size: 20px;
     }
