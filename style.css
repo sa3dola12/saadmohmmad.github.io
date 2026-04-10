@@ -170,12 +170,13 @@ footer {
 @media (max-width: 768px) {
 
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        flex-wrap: nonwrap;
     }
 
     nav ul li {
-        margin: 5px 0;
+        margin: 0 5px;
     }
 
     header h1 {
