@@ -11,7 +11,6 @@ body {
 }
 
 header {
-    /* background: linear-gradient(90deg, #004bcc, #00c6ff); */
     background: white;
     color: #001f3f;
     text-align: center;
@@ -21,21 +20,26 @@ header {
 nav ul {
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap; 
+    overflow-x: auto;
+    white-space: nowrap;
     list-style: none;
     background-color: #001f3f;
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 5px;
+    flex: 0 0 auto;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 12px 15px;
+    padding: 10px 12px;
     display: block;
     border-radius: 5px;
     transition: 0.3s;
+    font-size: 13px;
 }
 
 nav ul li a:hover {
