@@ -1,18 +1,98 @@
-.input {
-  background-color: #212121;
-  max-width: 190px;
-  height: 40px;
-  padding: 10px;
-  text-align: center; 
-  border: 2px solid white;
-  border-radius: 5px;
+body{
+   background-color: rgb(249, 249, 244);
+   height: 70%;
+   margin: 0;
+   font-family: Arial;
 }
-
-.input:focus {
-  color: rgb(0, 255, 255);
-  background-color: #212121;
-  outline-color: rgb(0, 255, 255);
-  box-shadow: -3px -3px 15px rgb(0, 255, 255);
-  transition: .1s;
-  transition-property: box-shadow;
+h1{
+  color: #420505;
+}
+h2{
+  color: #260404;
+}
+nav{
+    background-color: hsl(49, 37%, 89%);
+    height: 10px 0;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #7e640f;
+    text-shadow: 0px 0px 10px rgba(245, 243, 230, 0.3);
+}
+nav ul li{
+   display:inline;
+   margin:10px;
+}
+nav ul li a{
+   color:hsl(356, 90%, 16%);
+   font-weight:bold;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer{
+    background-color: hsl(49, 37%, 89%);
+    text-align: center;
+     padding: 10px;
+}
+a{
+    color: hsl(356, 94%, 7%);
+}
+button{
+  display: block;
+  margin: 30px;
+  color: hsl(0, 91%, 17%);
+  background-color: hsl(49, 37%, 90%);
+}
+.home-btn{
+    background-color: hsl(49, 37%, 85%);
+    color: rgb(243, 239, 239);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.home-btn:hover {
+    background-color: hsl(48, 62%, 88%); 
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px hsl(46, 45%, 60%);
+}
+.home-btn:active {
+    transform: translateY(0);
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 350px;
+  padding: 35px;
+  color: rgb(199, 6, 6);
+}
+.text {
+  max-width: 50%;
+}
+.text h3 {
+  font-size: 24px;
+  font-style: italic;
+}
+.text h1 {
+  font-size: 80px;
+  margin: 10px 0;
+}
+.text p {
+  font-size: 20px;
+  color: rgb(145, 3, 20);
+}
+img {
+  border-radius: 50%;
+  border: 5px solid rgb(114, 156, 71);
+   object-fit: cover;
+   box-shadow: 0 15px 25px rgba(21, 63, 2, 0.3);
+}
+.sss{
+    text-align: center;
+    font-size: 50px;
 }
