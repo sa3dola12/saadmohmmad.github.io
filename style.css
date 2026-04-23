@@ -198,6 +198,15 @@ a{
     box-shadow: 0 4px 10px rgba(122, 31, 31, 0.3);
     text-shadow: 0px 0px 10px rgba(252, 251, 251, 0.733);
 }
+.cont{
+   display:flex;
+   justify-content:space-between;
+   align-items:flex-start;
+   width:80%;
+   margin:auto;
+   gap:40px;
+}
+
 .login{
     position: relative;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
