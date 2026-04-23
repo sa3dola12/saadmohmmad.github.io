@@ -153,7 +153,8 @@ a{
     flex-direction: column;
     background-color:#f7f2e7;
     box-sizing: border-box;
-   gap:10px;
+    gap:10px;
+    margin-left:auto;
 
 }
 
