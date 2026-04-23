@@ -12,6 +12,12 @@ h2{
 nav{
     height: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cooknav{
+  font-size: 18px;
 }
 nav a:hover{
     text-decoration: underline;
@@ -82,21 +88,58 @@ a{
   font-size: 20px;
   color: #bc1c44;
 }
-img {
-  border-radius: 50%;
-  border: 5px solid rgb(108, 3, 19);
+.home-img img {
+   border-radius: 50%;
+   border: 5px solid rgb(108, 3, 19);
    object-fit: cover;
    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.863);
 }
-span{
-    font-size: 60px;
-    margin: 10px;
-    font-weight: 700;
-    padding-left: 450px;
+
+
+
+
+
+
+/*ABOUT US*/
+
+.story-img img {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  display: block;
 }
-.logo{
+.our-story p {
+  color: #6e3333;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+.story-img {
+  width: 45%;
+  margin-left: 15px;
+}
+.our-story {
+  width: 55%;
+  margin: 50px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 550;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.ooo{
   text-align: center;
 }
+
+
+
+
+
+
+
+/*salma*/
 .contact{
     position: relative;
     box-shadow: 0 4 10px rgba(0,0,0,0.1);
