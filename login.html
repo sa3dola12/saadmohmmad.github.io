@@ -9,7 +9,7 @@
 <body>
     <header>
     <a class="logo" href="#"><span>COOK</span>
-        <span> ZONE</span>
+        <span> ZONE</span></a>
     <nav> 
         <ul> 
             <li><a href="index.html"> Home</a></li>
@@ -24,22 +24,29 @@
      </nav>
      </header>
      <main>
+     <div class="login">
      <h1><i class="fas fa-user"></i> Welcome Back!</h1>
-     <form class="login form">
-            <label for="EMAIL">Email:</label>
-            <input type="email" id="email" name="email" required>
+       <form class="login form">
+         <div class="input-box">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" required>
+             <i class="fas fa-envelope"></i>
+         </div>
          <br>
+         <div class="input-box">
             <label for="Password">Password:</label> 
             <input type="password" id="password" name="password" required>
+             <i class="fas fa-lock"></i>
+         </div>
          
-            <div class="form-footer">
+         <div class="form-footer">
                 <button type="submit">LOG IN</button>
           <br>
-    <p>Don't have an account? <a href="#">Sign up</a></p>
-    <button onclick="window.location.href='index.html'">Log out</button>
-            </div>
+          <p>Don't have an account? <a href="#">Sign up</a></p>
+         </div>
      </form>
-     </main>
+    </div>
+    </main>
  <script src="main.js"></script>
 <footer> 
       <p>&copy; 2026 Cook Zone. Created by Helwan University Students.</p>
