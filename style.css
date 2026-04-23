@@ -151,7 +151,7 @@ a{
     display: flex;
     margin:60px  auto;
     flex-direction: column;
-    background-color:#f5e6c8;
+    background-color:#f7f2e7;
     box-sizing: border-box;
 
 }
@@ -208,7 +208,7 @@ a{
     display: flex;
     margin:50px  auto;
     flex-direction: column;
-    background-color: #f5e6c8;
+    background-color: #f7f2e7;
     box-sizing: border-box;
 
 }
@@ -299,7 +299,7 @@ a{
     display: flex;
     margin:60px  auto;
     flex-direction: column;
-    background-color:#f5e6c8;
+    background-color:#f7f2e7;
     box-sizing: border-box;
 }
 .order input,.order textarea{
