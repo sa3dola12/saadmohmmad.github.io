@@ -145,7 +145,7 @@ a{
     position: relative;
     box-shadow: 0 4 10px rgba(0,0,0,0.1);
     border: 1px solid rgba(100,255,200,0.2);
-    width: 420px;
+    width: 45%;
     border-radius: 16px;
     padding: 30px 25px;
     display: flex;
@@ -153,6 +153,7 @@ a{
     flex-direction: column;
     background-color:#f7f2e7;
     box-sizing: border-box;
+   gap:10px;
 
 }
 
@@ -206,7 +207,9 @@ a{
    margin:auto;
    gap:40px;
 }
-
+.get in touch{
+   width:45%;
+}
 .login{
     position: relative;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
