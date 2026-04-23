@@ -208,8 +208,9 @@ a{
    margin: 20px auto;
    gap:40px;
 }
-get{
+.get{
    width:45%;
+   margin-left: 30px;
 }
 .login{
     position: relative;
