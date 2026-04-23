@@ -208,9 +208,6 @@ a{
    margin:auto;
    gap:40px;
 }
-.get{
-   width:45%;
-}
 .login{
     position: relative;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
