@@ -27,6 +27,7 @@ nav ul li{
 nav ul li a{
    color:hsl(356, 90%, 16%);
    font-weight:bold;
+   text-decoration-line: none;
 }
 .page {
   display: flex;
