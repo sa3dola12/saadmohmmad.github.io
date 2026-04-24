@@ -3,6 +3,43 @@ body{
    margin: 0;
    font-family: Arial;
 }
+body.dark {
+    background: #121212;
+    color: #fff;
+}
+
+body.dark .page {
+    background: #1e1e1e;
+}
+
+body.dark nav {
+    background: #111;
+}
+
+body.dark nav ul li a {
+    color: #fff;
+}
+
+body.dark .hero {
+    color: #fff;
+}
+
+body.dark .text p {
+    color: #ccc;
+}
+
+body.dark .home-btn {
+    background: #333;
+    color: #fff;
+}
+
+body.dark footer {
+    color: #aaa;
+}
+
+body.dark a {
+    color: #fff;
+}
 h1{
   color: #560B18;
 }
