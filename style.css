@@ -200,7 +200,7 @@ a{
     backdrop-filter: blur(5px);
 }
 .back {
-    background-image: url("images/bbg.jpg");
+    background-image: url("./bbg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
