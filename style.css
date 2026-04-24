@@ -462,8 +462,7 @@ a{
  .contact-form{
     margin-right:55px;
  }
-.back{
-    background-image: url(bbg.jpg);
+.pagef{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
