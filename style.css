@@ -223,8 +223,11 @@ a{
     display: flex;
     margin:50px  auto;
     flex-direction: column;
-    background-color: #f7f2e7;
     box-sizing: border-box;
+    background-color:rgba(255,255,255,0.65);
+    margin-left: auto;
+    margin-right: 100px;
+    top:-50px;
 
 }
 .login input{
@@ -455,6 +458,16 @@ a{
  .contact-form{
     margin-right:55px;
  }
+.page1{
+    background-image: url(bbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
 
 
 
