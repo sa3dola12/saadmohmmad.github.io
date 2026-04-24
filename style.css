@@ -74,7 +74,7 @@ nav ul li a{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-   background: rgba(255,255,255,0.2);
+ background: linear-gradient(to top, #dac184, #f7f2e7);
 }
 footer{
     text-align: center;
@@ -195,20 +195,6 @@ a{
     margin-right:40px;
 
 }
-.login, .signup {
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(5px);
-}
-.back {
-    background-image: url("./images/bbg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    min-height: 100vh;
-    width: 100%;
-}
-
 .contact input,.contact textarea{
     margin: 10px 0;
     padding: 12px 14px;
