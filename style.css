@@ -195,6 +195,19 @@ a{
     margin-right:40px;
 
 }
+.login, .signup {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(5px);
+}
+.back {
+    background-image: url("images/bbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    width: 100%;
+}
 
 .contact input,.contact textarea{
     margin: 10px 0;
