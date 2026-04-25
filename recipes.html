@@ -1,183 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, intial-scale=1.0 ">
-    <title>COOK ZONE </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COOK ZONE - Official Menu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
+
     <div class="page">
-     <header>
-      <nav>
-        <div class="cooknav"><h1>COOK ZONE</h1></div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="login.html">Log In</a></li>
-            <li><a href="about-us.html">About</a></li>
-            <li><a href="recipes.html">Menu</a></li>
-            <li><a href="search.html">Search</a></li>
-            <li><a href="compare.html">Recipes Comparison</a></li>
-            <li><a href="order-now.html">Order Now</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-     </nav>
-    </header>
-
-    <main>
-        <section>
-            <div class="container">
-                <div class="menu">
-                    <ul>
-                         <li><a href="#Breakfast">Breakfast</a></li>
-                        <li><a href="#Lunch">Lunch</a></li>
-                        <li><a href="#Dessert">Dessert</a></li>
-
-                    </ul>
+        <header>
+            <nav>
+                <div class="cooknav">
+                    <h1>COOK ZONE</h1>
                 </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html" class="login-link" id="auth-btn">Log In</a></li>
+                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="recipes.html">Menu</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="compare.html">Comparison</a></li>
+                    <li><a href="order-now.html">Order Now</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            </div>
+        <main>
+            <section id="Breakfast" class="section-padding">
+                <h2 class="section-title">Breakfast</h2>
+                <div class="cards-grid">
 
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/omlet.jpg" alt="Omlet">
+                            <div class="rating"><i class="fas fa-star"></i> 4.8</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Omlet</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Eggs, Butter, Salt, Pepper,
+                                Cheese, Vegetables.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn active">S</button><button
+                                        class="size-btn">M</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$13.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
 
-        </section>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/ful_medames.jpg" alt="Ful">
+                            <div class="rating"><i class="fas fa-star"></i> 4.9</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Ful Medames</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Fava beans, Garlic, Cumin, Olive
+                                Oil, Lemon.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn active">S</button><button
+                                        class="size-btn">M</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$9.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
 
-        <section id="Breakfast">
-            <h1>Breakfast</h1>
-            <div class="card">
-                <img src="Images/omlet.jpg">
-                <h3 class="card_tittle">Omlet</h3>
-                <p class="card_ingredients">Ingredients: Eggs + Butter + Salt and Pepper + Cheese + vegetables</p>
-                <p class="card_description">1.Beat the eggs.<br>2.Heat the pan<br>3.Cook the eggs.<br>4.Add fillings.<br>5.Fold and serve.<br></p>
-                <span>13$</span>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/cheese fries2.jpg" alt="Fries">
+                            <div class="rating"><i class="fas fa-star"></i> 4.6</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Cheesy Fries</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Potatoes, Oil, Herbs, Mozzarella,
+                                Cheese sauce.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn">M</button><button
+                                        class="size-btn active">L</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$10.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
 
-            </div>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/manakish.jpg" alt="Manakish">
+                            <div class="rating"><i class="fas fa-star"></i> 4.7</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Manakish</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Dough, Za’atar, Cheese, Olive Oil,
+                                Red pepper.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn active">S</button><button
+                                        class="size-btn">M</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$5.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            <div class="card">
-                <img src="Images/ful_medames.jpg">
-                <h3 class="card_tittle">Ful Medames</h3>
-                <p class="card_ingredients">Ingredients : Canned Fava beans + Garlic + Cumin & Salt + Olive Oil + Lemon</p>
-                <p class="card_description">1.Heat the beans.<br>2.Mash the beans with a fork.<br>3.Add garlic, cumin, salt and lemon.<br>4.Drizzle olive oil on top.<br>5.Serve with tomatoes.<br></p>
-                <span>9$</span>
+            <section id="Lunch" class="section-padding">
+                <h2 class="section-title">Lunch</h2>
+                <div class="cards-grid">
 
-            </div>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/Negresco.jpg" alt="Negresco">
+                            <div class="rating"><i class="fas fa-star"></i> 4.9</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Negresco</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Pasta, Chicken, Mushrooms,
+                                Bechamel, Mozzarella.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn">M</button><button
+                                        class="size-btn active">L</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$21.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="card">
-                <img src="Images/cheese fries2.jpg">
-                <h3 class="card_tittle">Cheesy Fries</h3>
-                <p class="card_ingredients">Ingredients : Potatoes + Oil + Dried herbs + Mozzarella + Cheese sauce</p>
-                <p class="card_description">1.Place the boiled potatoes in a pan.<br>2.Fry them with oil until become crispy.<br>3.Sprinkle cheese sauce and herbs on top.<br>4.Cover the pan for a minute and serve it.<br></p>
-                <span>10$</span>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/Hawashi.jpg" alt="Hawawshi">
+                            <div class="rating"><i class="fas fa-star"></i> 4.8</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Hawawshi</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Egyptian bread, Ground beef,
+                                Onions, Peppers, Spices.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn active">S</button><button
+                                        class="size-btn">M</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$10.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
 
-            </div>
-          
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/Maqlooba.jpg" alt="Maqlooba">
+                            <div class="rating"><i class="fas fa-star"></i> 4.9</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Maqlooba</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Rice, Chicken, Eggplant,
+                                Vegetables, Broth, Turmeric.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn">M</button><button
+                                        class="size-btn active">L</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$18.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
 
-            <div  class="card">
-                <img src="Images/manakish.jpg">
-                <h3 class="card_tittle">Manakish</h3>
-                <p class="card_ingredients">Ingredients : Dough(Flour,Yeast,Water,Olive Oil,Salt) + Za’atar + Cheese + Red pepper</p>
-                <p class="card_description">1.Mix the dough ingredients and let it rise for an hour.<br>2.Cut the dough into pieces.<br>3.Spread the za’atar,cheese and oil on top.<br>4.place in a very hot preheated oven at 200°C for 10 minutes until become golden and crispy.<br></p>
-                <span>5$</span>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/shawarma.jpg" alt="Shawarma">
+                            <div class="rating"><i class="fas fa-star"></i> 4.7</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Shawarma</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Chicken, Yogurt, Garlic, Lemon,
+                                Spices, Bread.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn active">S</button><button
+                                        class="size-btn">M</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$9.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section id="Dessert" class="section-padding">
+                <h2 class="section-title">Dessert</h2>
+                <div class="cards-grid">
 
-            </div>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/brawnies.webp" alt="Brownies">
+                            <div class="rating"><i class="fas fa-star"></i> 5.0</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Brownies</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Chocolate, Butter, Sugar, Eggs,
+                                Flour, Cocoa powder.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn active">S</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$5.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
 
-        </section>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/Kunafa.jpg" alt="Kunafa">
+                            <div class="rating"><i class="fas fa-star"></i> 4.9</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Mango Kunafa</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Kunafa dough, Butter, Syrup,
+                                Mango, Whipped cream.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn active">M</button><button
+                                        class="size-btn">L</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$6.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/Donuts.jpg" alt="Donuts">
+                            <div class="rating"><i class="fas fa-star"></i> 4.8</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Donuts</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Flour, Milk, Sugar, Yeast, Eggs,
+                                Chocolate topping.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn active">S</button><button
+                                        class="size-btn">M</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$5.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
 
-        <section id="Lunch">
-            <h1>Lunch</h1>
-            <div class="card">
-                <img src="Images/Negresco.jpg">
-                <h3 class="card_tittle">Negresco</h3>
-                <p class="card_ingredients">Ingredients : Pasta + Chicken breast (cubed) + Mushrooms + Onion & Garlic + Negresco sauce (flour,butter,milk and cooking cream) + Mozzarella cheese + (salt,black pepper and nutmeg)</p>
-                <p class="card_description">1.Boil the pasta.<br>2.Cook the chicken with the onion,garlic and mushrooms.<br>3.In a pot melt the butter then add flour and stir to make the sauce.<br>4.Mix the pasta with part of the sauce.<br>5.Transfer everything into a baking dish, pour the remaining sauce on top and sprinkle with mozzarella.<br>6.Bake until the top is golden and the cheese is melted.<br></p>
-                <span>21$</span>
-
-            </div>
-
-
-            <div class="card">
-                <img src="Images/Hawashi.jpg">
-                <h3 class="card_tittle">Hawawshi</h3>
-                <p class="card_ingredients">Ingredients : Egyptian bread + Ground beef + Minced onions + Bell peppers + Spices(salt,pepper,nutmeg and cinnamon)</p>
-                <p class="card_description">1.Mix the minced meat with onion,pepper and spices.<br>2.Stuff the mixture inside bread.<br>3.Brush the bread with oil.<br>4.Cook in a pan with medium heat, turn until cooked.<br>5.Serve hot with pickles.<br></p>
-                <span>10$</span>
-
-            </div>
-
-
-            <div class="card">
-                <img src="Images/Maqlooba.jpg">
-                <h3 class="card_tittle">Maqlooba</h3>
-                <p class="card_ingredients">Ingredients : Rice + Chicken + Eggplant & vegetables + Onion + Garlic + Chicken broth + Spices(salt,pepper,bay leaves and turmeric) + Oil</p>
-                <p class="card_description">1.Fry eggplant and vegetables until golden.<br>2.Cook chicken with onion, garlic and spices, then add water to make broth.<br>3.In a pot , put the vegetables first, then the rice, then the chicken.<br>4.Pour broth over until rice is covered.<br>5.Cook on low heat until rice is done.<br>6.Flip the pot onto a serving plate and serve hot.<br></p>
-                <span>18$</span>
-
-            </div>
-
-
-            <div class="card">
-                <img src="Images/shawarma.jpg">
-                <h3 class="card_tittle">Shawarma</h3>
-                <p class="card_ingredients">Ingredients : Chicken + Yogurt + Garlic + Lemon +  Spices(salt,pepper,paprika and cumin) + Bread </p>
-                <p class="card_description">1.Marinate chicken with yogurt, lemon, vinegar and spices.<br>2.Cook in a pan on medium heat until fully done.<br>3.Warm the bread.<br>4.Fill with shawarma and add garlic sauce<br>5.Serve with fries or pickles.<br></p>
-                <span>9$</span>
-
-
-            </div>
-
-
-        </section>
-
-
-
-
-        <section id="Dessert">
-            <h1>Dessert</h1>
-            <div class="card">
-                <img src="Images/brawnies.webp">
-                <h3 class="card_tittle">Brownies cake</h3>
-                <p class="card_ingredients">Ingredients : Chocolate + Butter + Sugar + Eggs + Flour + Cocoa powder</p>
-                <p class="card_description">1.Melt chocolate with butter.<br>2.Mix the sugar and eggs.<br>3.Add flour and cocoa.<br>4.Bake in oven (180°C) for 25 minutes.<br>5.Serve cold with chocolate sauce.<br> </p>
-                <span>5$</span>
-
-            </div>
-
-
-            <div class="card">
-                <img src="Images/Kunafa.jpg">
-                <h3 class="card_tittle">Mango Kunafa</h3>
-                <p class="card_ingredients">Ingredients : Kunafa dough + Butter + Sugar syrup + Mango (fresh and cubed) + Whipped cream</p>
-                <p class="card_description">1.Mix kunafa dough with melted butter.<br>2.Bake until golden.<br>3.Sweeten with syrup while warm.<br>4.Layer with cream and mango.<br>5.Top with more mango and serve chilled.<br></p>
-                <span>6$</span>
-
-            </div>
-
-
-            <div class="card">
-                <img src="Images/Donuts.jpg">
-                <h3 class="card_tittle">Donuts</h3>
-                <p class="card_ingredients">Ingredients : Flour + Milk + Sugar + Yeast + Eggs + Butter + Salt + oil + Chocolate or sugar (for topping)</p>
-                <p class="card_description">1.Mix ingredients and knead dough.<br>2.Let it rise.<br>3.Shape into circles.<br>4.Fry in hot until golden.<br>5.Add sugrar or chocolate on top.<br></p>
-                <span>5$</span>
-
-            </div>
-
-
-
-            <div class="card">
-                <img src="Images/pancakes.jpg">
-                <h3 class="card_tittle">Pancakes</h3>
-                <p class="card_ingredients">Ingredients : Flour + Milk + Eggs + Sugar + Baking powder + Salt + Butter</p>
-                <p class="ard_description">1.Mix all ingredients until smooth batter.<br>2.pour small amounts in a hot pan.<br>3.Cook until bubbles appear, then flip.<br>4.Serve with honey, syrup or strawberry.<br></p>
-                <span>3$</span>
-
-
-            </div>
-
-        </section>
-
-    </main>
+                    <div class="card">
+                        <div class="image-container">
+                            <img src="Images/pancakes.jpg" alt="Pancakes">
+                            <div class="rating"><i class="fas fa-star"></i> 4.7</div>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <h3>Pancakes</h3>
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Flour, Milk, Eggs, Sugar, Baking
+                                powder, Syrup.</p>
+                            <div class="size-selection">
+                                <span>Size:</span>
+                                <div class="sizes"><button class="size-btn active">S</button></div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="price">$3.00</span>
+                                <button class="add-to-dish">Add to Dish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
 </body>
 
+</html>
