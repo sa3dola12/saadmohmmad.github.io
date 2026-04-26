@@ -563,7 +563,7 @@ a {
     margin-right: 55px;
 }
 .back{
-    background-image: url(Images/img1.jfjf);
+    background-image: url("Images/img1.jfjf");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
