@@ -559,11 +559,26 @@ a {
 .input-box input:focus {
     border-color: #7a1f1f;
 }
-
-
 .contact-form {
     margin-right: 55px;
 }
+.back{
+    background-image: url(Images/img1.jfjf);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
 
 /*saad*/
 body {
