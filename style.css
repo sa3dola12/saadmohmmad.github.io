@@ -5,12 +5,12 @@ body {
 }
 
 body.dark {
-    background: #121212;
+    background: #111;
     color: #fff;
 }
 
 body.dark .page {
-    background: #1e1e1e;
+    background: #111;
 }
 
 body.dark nav {
@@ -51,7 +51,7 @@ h2 {
 }
 
 nav {
-    height: 10px 0;
+    height: 0px 0;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -71,14 +71,14 @@ nav a:hover {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 5px;
     flex-wrap: nowrap;
     align-items: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 25px;
+    margin: 22px;
 }
 
 nav ul li a {
@@ -563,18 +563,26 @@ a {
     margin-right: 55px;
 }
 .back{
-    background-image: url("Images/img1.jfjf");
+    background-image: url("img.jfif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
     width: 100%;
-
+    height: 100vh;             
 }
-
-
-
+.loginnav{
+  background-color: #f9edd0;
+}
+.loginfoo{
+  color: #fff;
+}
+pre{
+   color: #f0f0f0;
+   font-size: 40px;
+    margin: 10px 0;
+}
 
 
 
@@ -688,8 +696,8 @@ a {
 }
 
 .size-btn.active {
-    border-color: #4CAF50;
-    color: #4CAF50;
+    border-color: #f2eeef;
+    color: #f4f8f5;
     background-color: #f0fff0;
 }
 
@@ -699,15 +707,9 @@ a {
     gap: 15px;
 }
 
-.price {
-    font-size: 24px;
-    font-weight: bold;
-    color: #28a745;
-}
-
 .add-to-dish {
-    background-color: #e2f9ee;
-    color: #274c37;
+    background-color: #af1731;
+    color: #850d0d;
     border: none;
     padding: 15px;
     border-radius: 30px;
@@ -719,7 +721,7 @@ a {
 }
 
 .add-to-dish:hover {
-    background-color: #d1f2e1;
+    background-color: #960707;
 }
 .cards-grid {
     display: flex;
@@ -776,7 +778,7 @@ a {
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    color: #ff4757;
+    color: #bba0a2;
 }
 
 .card-content {
@@ -822,15 +824,15 @@ a {
 }
 
 .size-btn.active {
-    border-color: #2ecc71;
-    color: #2ecc71;
-    background: #f0fff4;
+    border-color: #e40707;
+    color: #ac0722;
+    background: #f8f6eb;
 }
 
 .price {
     font-size: 22px;
     font-weight: 800;
-    color: #2ecc71;
+    color: #a50404;
     display: block;
     margin-bottom: 10px;
 }
@@ -840,15 +842,15 @@ a {
     padding: 12px;
     border-radius: 20px;
     border: none;
-    background: #e8f8f0;
-    color: #1e392a;
+    background: #590513;
+    color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .add-to-dish:hover {
-    background: #2ecc71;
+    background: #962323;
     color: white;
 }
 
@@ -882,7 +884,15 @@ a {
     color: #4a1a1a;
     font-weight: bold;
 }
+
+
+
+
+
+
+
 /*Recipes Comparison*/
+
 .click-on-Cards{
     padding: 7px;
     color: #560b18;
