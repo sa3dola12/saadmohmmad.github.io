@@ -725,41 +725,6 @@ body {
 .add-to-dish:hover {
     background-color: #d1f2e1;
 }
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #fcfbf7;
-    font-family: sans-serif;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 4%;
-    background: white;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 12px;
-    flex-wrap: nowrap;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #4a1a1a;
-    font-weight: bold;
-    font-size: 13px;
-    white-space: nowrap;
-}
-
 .cards-grid {
     display: flex;
     flex-wrap: wrap;
