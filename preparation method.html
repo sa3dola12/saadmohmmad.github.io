@@ -8,6 +8,8 @@
 </head>
 <body>
  <div class="page">
+     <script>if (localStorage.getItem("theme") === "dark") document.body.classList.add("dark-theme");</script>
+        <header>
     <header>
       <nav>
         <div class="cooknav"><h1>COOK ZONE</h1></div>
@@ -20,6 +22,7 @@
             <li><a href="compare.html">Recipes Comparison</a></li>
             <li><a href="order-now.html">Order Now</a></li>
             <li><a href="contact-us.html">Contact Us</a></li>
+            <li><button onclick="toggletheme()" class="theme-btn">🌙/☀️</button></li>
         </ul>
      </nav>
      <div>
