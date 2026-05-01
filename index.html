@@ -6,10 +6,11 @@
     <title>cook zone</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
 </head>
 
 <body>
-    <button onclick="toggletheme()">Change Theme</button>
+    <script>if (localStorage.getItem("theme") === "dark") document.body.classList.add("dark-theme");</script>
     <div class="page">
         <header>
             <nav>
@@ -21,10 +22,11 @@
                     <li><a href="login.html">Log In</a></li>
                     <li><a href="about-us.html">About</a></li>
                     <li><a href="recipes.html">Menu</a></li>
-                   <li><a href="preparation method.html">Preparation Method</a></li>
+                    <li><a href="preparation method.html">Preparation Method</a></li>
                     <li><a href="compare.html">Recipes Comparison</a></li>
                     <li><a href="order-now.html">Order Now</a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><button onclick="toggletheme()" class="theme-btn">🌙/☀️</button></li>
                 </ul>
             </nav>
         </header>
@@ -37,7 +39,6 @@
             </div>
             <div class="home-img">
                 <img src="Images/photo4.jpeg" alt="food img" width="670px" height="380">
-                <script src="main.js"></script>
             </div>
         </section>
 
