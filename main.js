@@ -20,16 +20,6 @@ orderForm.addEventListener('submit', function (e) {
     alert(`thank you ${data.firstName}! your order ( ${data.order} ) has been submitted successfully.`);
     orderForm.reset();
 });
-function toggletheme() {
-    document.body.classList.toggle('dark');
-    localStorage.setItem('theme', document.body.className);
-};
-window.onload = function () {
-    let savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-        document.body.className = savedTheme;
-    }
-};
 function signupUser(e) {
     e.preventDefault();
 
@@ -66,28 +56,48 @@ function signupUser(e) {
     alert("Account Created Successfully ");
     window.location.href = "login.html";
 }
-function loginUser(e) {
-    e.preventDefault();
+function applyTheme() {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") {
+        document.body.classList.add("dark-theme");
+    }
+}
 
-    let email = document.getElementById("loginEmail").value;
-    let pass = document.getElementById("loginPassword").value;
-    let error = document.getElementById("loginError");
+applyTheme();
+function toggletheme() {
+    document.body.classList.toggle("dark-theme");
+    const theme = document.body.classList.contains("dark-theme") ? "dark" : "light";
+    localStorage.setItem("theme", theme);
+}
+function signupUser(event) {
+    event.preventDefault();
 
-    let savedEmail = localStorage.getItem("userEmail");
-    let savedPass = localStorage.getItem("userPassword");
-
-    error.innerText = "";
-
-    if (email === "" || pass === "") {
-        error.innerText = "Fill all fields";
+    const email = document.getElementById('signupEmail').value;
+    const password = document.getElementById('signupPassword').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
+    const errorElement = document.getElementById('signupError');
+    if (password !== confirmPassword) {
+        errorElement.innerText = "Passwords do not match!";
         return;
     }
+    localStorage.setItem('userEmail', email);
+    localStorage.setItem('userPassword', password);
 
-    if (email !== savedEmail || pass !== savedPass) {
-        error.innerText = "Wrong Email or Password";
-        return;
+    alert("Account created successfully! Please Log in.");
+    window.location.href = "login.html";
+}
+function loginUser(event) {
+    event.preventDefault();
+
+    const email = document.getElementById('loginEmail').value;
+    const password = document.getElementById('loginPassword').value;
+    const errorElement = document.getElementById('loginError');
+    const storedEmail = localStorage.getItem('userEmail');
+    const storedPassword = localStorage.getItem('userPassword');
+    if (email === storedEmail && password === storedPassword) {
+        alert("Welcome back to COOK ZONE!");
+        window.location.href = "index.html";
+    } else {
+        errorElement.innerText = "Invalid Email or Password!";
     }
-
-    alert("Login Successful ");
-    window.location.href = "index.html";
 }
