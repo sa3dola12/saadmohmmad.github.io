@@ -221,10 +221,16 @@ h4 {
     text-align: center;
 
 }
-.contvid{
-    margin: 20px;
+.vid {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
 }
 
+.vid iframe {
+  width: 100%;
+  height: 300px;
+}
 
 
 
