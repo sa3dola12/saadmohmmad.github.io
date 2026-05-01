@@ -207,6 +207,23 @@ a {
 .ooo {
     text-align: center;
 }
+video {
+     width: 100%;
+     max-width: 600px;
+     height: auto;
+     display: block;
+     margin: 0 auto;
+     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+     border-radius: 15px;
+}
+h4 {
+    color: #640113;
+    text-align: center;
+
+}
+.contvid{
+    margin: 20px;
+}
 
 
 
