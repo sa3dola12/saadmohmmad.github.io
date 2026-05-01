@@ -12,6 +12,7 @@
 <body>
 
     <div class="page">
+        <script>if (localStorage.getItem("theme") === "dark") document.body.classList.add("dark-theme");</script>
         <header>
             <nav>
                 <div class="cooknav">
@@ -26,6 +27,7 @@
                     <li><a href="compare.html">Comparison</a></li>
                     <li><a href="order-now.html">Order Now</a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><button onclick="toggletheme()" class="theme-btn">🌙/☀️</button></li>
                 </ul>
             </nav>
         </header>
@@ -53,7 +55,8 @@
                             <div class="card-footer">
                                 <span class="price">$13.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#omlet"> How To Prepare</a></button>
+                                <a href="preparation method.html#omlet" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +79,8 @@
                             <div class="card-footer">
                                 <span class="price">$9.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#ful_medames"> How To Prepare</a></button>
+                                <a href="preparation method.html#ful_medames" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +103,8 @@
                             <div class="card-footer">
                                 <span class="price">$10.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                 <button ><a href="preparation method.html#Cheesy fries2"> How To Prepare</a></button>
+                                <a href="preparation method.html#Cheesy fries2" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +127,8 @@
                             <div class="card-footer">
                                 <span class="price">$5.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#manakish"> How To Prepare</a></button>
+                                <a href="preparation method.html#manakish" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -151,7 +157,8 @@
                             <div class="card-footer">
                                 <span class="price">$21.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#Negresco"> How To Prepare</a></button>
+                                <a href="preparation method.html#Negresco" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -174,7 +181,8 @@
                             <div class="card-footer">
                                 <span class="price">$10.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#Hawawshi"> How To Prepare</a></button>
+                                <a href="preparation method.html#Hawawshi" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -197,7 +205,8 @@
                             <div class="card-footer">
                                 <span class="price">$18.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#Maqlooba"> How To Prepare</a></button>
+                                <a href="preparation method.html#Maqlooba" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -220,7 +229,8 @@
                             <div class="card-footer">
                                 <span class="price">$9.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#shawarma"> How To Prepare</a></button>
+                                <a href="preparation method.html#shawarma" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -248,7 +258,8 @@
                             <div class="card-footer">
                                 <span class="price">$5.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#brawnies"> How To Prepare</a></button>
+                                <a href="preparation method.html#brawnies" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -271,7 +282,8 @@
                             <div class="card-footer">
                                 <span class="price">$6.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#kunafa"> How To Prepare</a></button>
+                                <a href="preparation method.html#kunafa" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -294,7 +306,8 @@
                             <div class="card-footer">
                                 <span class="price">$5.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                 <button ><a href="preparation method.html#Donuts"> How To Prepare</a></button>
+                                <a href="preparation method.html#Donuts" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -316,7 +329,8 @@
                             <div class="card-footer">
                                 <span class="price">$3.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
-                                <button ><a href="preparation method.html#pancakes"> How To Prepare</a></button>
+                                <a href="preparation method.html#pancakes" class="add-to-dish"> How To
+                                    Prepare</a>
                             </div>
                         </div>
                     </div>
@@ -325,8 +339,44 @@
         </main>
     </div>
     <footer class="loginfoo">
-            <p>&copy; 2026 Cook Zone. Created by Helwan University Students.</p>
-     </footer>
+        <p>&copy; 2026 Cook Zone. Created by Helwan University Students.</p>
+    </footer>
+    <script>
+        document.querySelectorAll('.wishlist').forEach(button => {
+            button.addEventListener('click', function () {
+                this.classList.toggle('active');
+                const icon = this.querySelector('i');
+                icon.classList.toggle('fas');
+                icon.classList.toggle('far');
+            });
+        });
+        document.querySelectorAll('.size-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const parent = this.parentElement;
+                parent.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+        document.querySelectorAll('.add-to-dish').forEach(button => {
+            if (button.tagName === 'BUTTON') {
+                button.addEventListener('click', function () {
+                    const isLoggedIn = localStorage.getItem('userEmail');
+
+                    if (!isLoggedIn) {
+                        alert("Please Log In first to add items to your dish!");
+                        window.location.href = "login.html";
+                        return;
+                    }
+                    const card = this.closest('.card');
+                    const itemName = card.querySelector('h3').innerText;
+                    const selectedSize = card.querySelector('.size-btn.active')?.innerText || "Standard";
+                    const price = card.querySelector('.price').innerText;
+
+                    alert(`Added to Dish: ${itemName} (Size: ${selectedSize}) - Price: ${price}`);
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
