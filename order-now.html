@@ -1,57 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>COOK ZONE </title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
 </head>
+
 <body>
     <div class="page">
-    <header>
-      <nav>
-        <div class="cooknav"><h1>COOK ZONE</h1></div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="login.html">Log In</a></li>
-            <li><a href="about-us.html">About</a></li>
-            <li><a href="recipes.html">Menu</a></li>
-            <li><a href="preparation method.html">Preparation Method</a></li>
-            <li><a href="compare.html">Recipes Comparison</a></li>
-            <li><a href="order-now.html">Order Now</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-     </nav>
-    </header>
-    <main>
-     <section>
-     <div class="order">
-     <h1>Order Now!</h1>
-     <form action="#" class="order-form" method="post">
-            <input type="text" name="firstName" required placeholder="Enter your first name:">
-        <br>
-            <input type="text" name="lastName" required placeholder="Enter your last name:">
-        <br>
-            <input type="tel" name="phone" required placeholder="Enter your phone number:">
-        <br>
-            <input type="text" name="yourOrder" required placeholder="Enter your order:">
-        <br>
-            <textarea  name="address" required placeholder="Enter your delivery address in detail:"></textarea>
-        <br>
-            <textarea  name="specialNotes" placeholder="Enter any special notes to your order:"></textarea>
-        <br>
-            <div class="form-footer">
-                <button type="submit">PLACE ORDER</button><br>
-            </div>
-     </form>
-     </div>
-    </section>
-    </main>
- <script src="main.js"></script>
-<footer> 
-      <p>&copy; 2026 Cook Zone. Created by Helwan University Students.</p>
-</footer>
+        <script>if (localStorage.getItem("theme") === "dark") document.body.classList.add("dark-theme");</script>
+        <header>
+            <nav>
+                <div class="cooknav">
+                    <h1>COOK ZONE</h1>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html" class="login-link">Log In</a></li>
+                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="recipes.html">Menu</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="compare.html">Recipes Comparison</a></li>
+                    <li><a href="order-now.html">Order Now</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><button onclick="toggletheme()" class="theme-btn">🌙/☀️</button></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="order">
+                    <h1>Order Now!</h1>
+                    <form action="#" class="order-form" method="post">
+                        <input type="text" name="firstName" required placeholder="Enter your first name:">
+                        <br>
+                        <input type="text" name="lastName" required placeholder="Enter your last name:">
+                        <br>
+                        <input type="tel" name="phone" required placeholder="Enter your phone number:">
+                        <br>
+                        <input type="text" name="yourOrder" required placeholder="Enter your order:">
+                        <br>
+                        <textarea name="address" required
+                            placeholder="Enter your delivery address in detail:"></textarea>
+                        <br>
+                        <textarea name="specialNotes" placeholder="Enter any special notes to your order:"></textarea>
+                        <br>
+                        <div class="form-footer">
+                            <button type="submit">PLACE ORDER</button><br>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <script src="main.js"></script>
+        <footer>
+            <p>&copy; 2026 Cook Zone. Created by Helwan University Students.</p>
+        </footer>
     </div>
 </body>
+
 </html>
