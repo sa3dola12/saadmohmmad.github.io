@@ -94,6 +94,8 @@ nav ul li a {
     flex-direction: column;
     min-height: 100vh;
     background: linear-gradient(to top, #dac184, #f7f2e7);
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in forwards;
 }
 
 footer {
