@@ -712,22 +712,6 @@ button.add-to-dish {
 button.add-to-dish:hover {
     background-color: #960707;
 }
-a.add-to-dish {
-    background-color: #af1731;
-    color: #850d0d;
-    border: none;
-    padding: 15px;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.3s;
-    width: 95%;
-}
-
-a.add-to-dish:hover {
-    background-color: #960707;
-}
 .cards-grid {
     display: flex;
     flex-wrap: wrap;
