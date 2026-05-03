@@ -63,6 +63,9 @@ footer {
     text-align: center;
     padding: 10px;
     color: #75162D;
+     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
