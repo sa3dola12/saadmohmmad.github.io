@@ -1133,3 +1133,10 @@ body.dark-theme .comparison_container {
 body.dark-theme .login input{
       color: #dac184 !important;
 }
+body.dark-theme .signup{
+     background-color: #1a1614 !important;
+}
+body.dark-theme .signup input{
+      color: #dac184 !important;
+}
+
