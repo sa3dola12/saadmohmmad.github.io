@@ -1120,6 +1120,10 @@ body.dark-theme .comparison_container {
     body.dark-theme .card .card-footer .price {
         color: #dac184 !important;
     }
+   body.dark-theme .card .image-container .rating {
+        color:  #3B010B  !important;
+    }
+
     body.dark-theme .login .loginform .form-footer p {
         color: #332604 !important;
     }
