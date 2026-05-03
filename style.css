@@ -717,6 +717,7 @@ a.add-to-dish {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    text-align:center;
     transition: background 0.3s;
     width: 90%;
 }
