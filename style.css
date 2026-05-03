@@ -1139,4 +1139,9 @@ body.dark-theme .signup{
 body.dark-theme .signup input{
       color: #dac184 !important;
 }
-
+body.dark-theme .order input{
+      color: #dac184 !important;
+}
+body.dark-theme .contact input{
+      color: #dac184 !important;
+}
