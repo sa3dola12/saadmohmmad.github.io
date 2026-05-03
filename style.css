@@ -1130,3 +1130,6 @@ body.dark-theme .comparison_container {
     body.dark-theme .login .loginform .form-footer p {
         color: #332604 !important;
     }
+body.dark-theme .login input{
+      color: #dac184 !important;
+}
