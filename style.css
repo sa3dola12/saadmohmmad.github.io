@@ -997,7 +997,7 @@ main {
 }
 .food-title {
     margin: 0;
-    color: #560b18;
+    color: #560B18;
     font-size: 26px;
 }
 .recipe-list {
@@ -1015,9 +1015,9 @@ body.dark-theme,
 body.dark-theme .page,
 body.dark-theme .hero,
 body.dark-theme .back {
-    background: #5a034e !important;
+    background: #1A1614 !important;
     background-image: none !important;
-    color: #ffffff !important;
+    color: #FFFFFF !important;
     opacity: 1 !important;
 }
 
@@ -1028,10 +1028,15 @@ body.dark-theme .cooknav h1 {
     color: #dac184 !important;
 }
 
+
 body.dark-theme nav ul li a,
 body.dark-theme p,
 body.dark-theme footer p {
-    color: #f7f2e7 !important;
+    color: #dac184 !important;
+}
+dark-theme .loginnav,
+body.dark-theme .loginnav {
+    background-color: #1a1614!important;
 }
 
 body.dark-theme .card,
@@ -1047,7 +1052,7 @@ body.dark-theme .comparison_container {
 
 .theme-btn {
     cursor: pointer;
-    background: #3B010B;
+    background: #dac2844b;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -1079,5 +1084,33 @@ body.dark-theme .comparison_container {
 
 .active-heart {
     transform: scale(1.2);
-    transition: 0.2s ease-in-out;
-}
+        transition: 0.2s ease-in-out;   }
+        body.dark-theme .container_of_preparation .food-card {
+            background-color: #1a1614 !important;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+                color: #dac184 !important;
+            }
+            body.dark-theme .container_of_preparation .recipe-list li {
+                color: #dac184 !important;
+            }
+            body.dark-theme .contvid .vidtext h4 {
+                color: #dac184 !important;
+                text-align: center;
+            }
+            body.dark-theme .logintext pre strong{
+                color: #dac184 !important;
+            }
+        body.dark-theme .card .card_ingredients{
+    background-color: #2a2a2a !important;
+    color: #dac184 !important;
+        }
+    body.dark-theme .table {
+        background-color: #1a1614 !important;
+        color: #dac184 !important;
+    }
+    body.dark-theme .card .card-footer .price {
+        color: #dac184 !important;
+    }
+    body.dark-theme .login .loginform .form-footer p {
+        color: #332604 !important;
+    }
