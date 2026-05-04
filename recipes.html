@@ -33,6 +33,11 @@
         </header>
 
         <main>
+            
+            <div class="search-box">
+                 <input type="text" id="searchInput" placeholder="Search for food..." >
+            </div>
+
             <section id="Breakfast" class="section-padding">
                 <h2 class="section-title">Breakfast</h2>
                 <div class="cards-grid">
@@ -376,8 +381,30 @@
                 });
             }
         });
+        const input = document.getElementById("searchInput");
+const items = document.querySelectorAll(".gallery-item");
+const modal = document.getElementById("modal");
+const modalImg = document.getElementById("modalImg");
+const modalText = document.getElementById("modalText");
+
+input.addEventListener("keyup", () => {
+    const value = input.value.toLowerCase().trim();
+
+    items.forEach(item => {
+        const title = item.querySelector("h3").innerText.toLowerCase();
+        const desc = item.querySelector("p").innerText.toLowerCase();
+
+        if (title.includes(value) || desc.includes(value)) {
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    });
+});
     </script>
-     <script src="main.js"></script>
+     <footer>
+            <p>&copy;2026 Cook Zone. Created by Helwan University Students.</p>
+     </footer>
 </body>
 
 </html>
