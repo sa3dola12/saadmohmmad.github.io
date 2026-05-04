@@ -344,7 +344,7 @@
         </main>
     </div>
     <script>
-        document.querySelectorAll('.wishlist').forEach(button => {
+      document.querySelectorAll('.wishlist').forEach(button => {
             button.addEventListener('click', function () {
                 this.classList.toggle('active');
                 const icon = this.querySelector('i');
@@ -378,16 +378,28 @@
                 });
             }
         });
-        document.getElementById('searchInput')?.addEventListener('input', function () {
-            let filter = this.value.toLowerCase();
-            let cards = document.querySelectorAll('.card');
+        document.getElementById('searchInput').addEventListener('input', function () {
+            let filter = this.value.toLowerCase().trim();
+            let sections = document.querySelectorAll('.section-padding');
 
-            cards.forEach(card => {
-                let title = card.querySelector('h3').innerText.toLowerCase();
-                if (title.includes(filter)) {
-                    card.style.display = "block";
+            sections.forEach(section => {
+                let cards = section.querySelectorAll('.card');
+                let hasVisibleCards = false;
+
+                cards.forEach(card => {
+                    let title = card.querySelector('h3').innerText.toLowerCase();
+
+                    if (title.includes(filter)) {
+                        card.style.display = "block";
+                        hasVisibleCards = true;
+                    } else {
+                        card.style.display = "none";
+                    }
+                });
+                if (hasVisibleCards || filter === "") {
+                    section.style.display = "block";
                 } else {
-                    card.style.display = "none";
+                    section.style.display = "none";
                 }
             });
         });
