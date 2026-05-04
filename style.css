@@ -1160,7 +1160,6 @@ body.dark-theme .contact textarea{
 /*search*/
 .search-box {
     width: 40%;
-    margin: 30px;
 }
 
 .search-box input {
@@ -1174,6 +1173,12 @@ body.dark-theme .contact textarea{
 .search-box input:focus {
     box-shadow: 0 0 13px #674b18 ;
 }
+
+
+
+
+
+/*comp-table*/
 .table{
         width: 100%;
     background-color:#EAE7D6 !important;
