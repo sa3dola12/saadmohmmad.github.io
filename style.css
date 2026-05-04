@@ -1174,3 +1174,30 @@ body.dark-theme .contact textarea{
 .search-box input:focus {
     box-shadow: 0 0 13px #674b18 ;
 }
+.table{
+        width: 100%;
+    background-color:#EAE7D6 !important;
+    border-spacing: 0 !important;
+    }
+    .table th, .table td {
+        height:40px;
+        padding: 12px 15px;
+        text-align: center;
+    }
+    th {
+        background-color: #e2dbb1 !important;
+        border:10px solid #e2dbb1!important;
+    }
+td{
+    border:10px solid #e2dbb1!important;
+}
+table :last-child td {
+    font-weight: bold;
+}
+body.dark-theme .table th {
+    background-color: #151411 !important;
+    border: 10px solid #2e2d29 !important;
+}
+body.dark-theme .table td {
+    border: 10px solid #2e2d29 !important;
+}
