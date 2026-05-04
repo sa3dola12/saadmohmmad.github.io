@@ -378,23 +378,16 @@
                 });
             }
         });
-        const input = document.getElementById("searchInput");
-const items = document.querySelectorAll(".gallery-item");
-const modal = document.getElementById("modal");
-const modalImg = document.getElementById("modalImg");
-const modalText = document.getElementById("modalText");
+        document.getElementById('searchInput')?.addEventListener('input', function() {
+    let filter = this.value.toLowerCase();
+    let cards = document.querySelectorAll('.card');
 
-input.addEventListener("keyup", () => {
-    const value = input.value.toLowerCase().trim();
-
-    items.forEach(item => {
-        const title = item.querySelector("h3").innerText.toLowerCase();
-        const desc = item.querySelector("p").innerText.toLowerCase();
-
-        if (title.includes(value) || desc.includes(value)) {
-            item.style.display = "block";
+    cards.forEach(card => {
+        let title = card.querySelector('h3').innerText.toLowerCase();
+        if (title.includes(filter)) {
+            card.style.display = "block";
         } else {
-            item.style.display = "none";
+            card.style.display = "none";
         }
     });
 });
