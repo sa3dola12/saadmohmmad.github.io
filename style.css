@@ -1183,6 +1183,7 @@ body.dark-theme .contact textarea{
         width: 100%;
     background-color:#EAE7D6 !important;
     border-spacing: 0 !important;
+   font-weight: bold;
     }
     .table th, .table td {
         height:40px;
@@ -1195,9 +1196,6 @@ body.dark-theme .contact textarea{
     }
 td{
     border:10px solid #e2dbb1!important;
-}
-table :last-child td {
-    font-weight: bold;
 }
 body.dark-theme .table th {
     background-color: #151411 !important;
