@@ -378,19 +378,19 @@
                 });
             }
         });
-        document.getElementById('searchInput')?.addEventListener('input', function() {
-    let filter = this.value.toLowerCase();
-    let cards = document.querySelectorAll('.card');
+        document.getElementById('searchInput')?.addEventListener('input', function () {
+            let filter = this.value.toLowerCase();
+            let cards = document.querySelectorAll('.card');
 
-    cards.forEach(card => {
-        let title = card.querySelector('h3').innerText.toLowerCase();
-        if (title.includes(filter)) {
-            card.style.display = "block";
-        } else {
-            card.style.display = "none";
-        }
-    });
-});
+            cards.forEach(card => {
+                let title = card.querySelector('h3').innerText.toLowerCase();
+                if (title.includes(filter)) {
+                    card.style.display = "block";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        });
     </script>
      <footer>
             <p>&copy;2026 Cook Zone. Created by Helwan University Students.</p>
