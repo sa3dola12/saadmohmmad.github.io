@@ -1151,3 +1151,26 @@ body.dark-theme .contact input{
 body.dark-theme .contact textarea{
       color: #dac184 !important;
 }
+
+
+
+
+
+
+/*search*/
+.search-box {
+    width: 40%;
+    margin: 30px;
+}
+
+.search-box input {
+    width: 100%;
+    padding:  20px;
+    border-radius: 30px;
+    font-size: 16px;
+    background: #fffefe;
+    color: rgb(82, 8, 2);}
+
+.search-box input:focus {
+    box-shadow: 0 0 13px #674b18 ;
+}
