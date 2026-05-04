@@ -27,17 +27,16 @@
                     <li><a href="compare.html">Recipes Comparison</a></li>
                     <li><a href="order-now.html">Order Now</a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
-                     <li><button onclick="toggletheme()" class="theme-btn">mode</button></li>
+                    <li><button onclick="toggletheme()" class="theme-btn">mode</button></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            
-            <div class="search-box">
-                 <input type="search" id="searchInput" placeholder="Search for food..." >
-            </div>
 
+            <div class="search-box">
+                <input type="search" id="searchInput" placeholder="Search for food...">
+            </div>
             <section id="Breakfast" class="section-padding">
                 <h2 class="section-title">Breakfast</h2>
                 <div class="cards-grid">
@@ -54,8 +53,10 @@
                                 Cheese, Vegetables.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn active">S</button><button
-                                        class="size-btn">M</button></div>
+                                <div class="sizes">
+                                    <button class="size-btn active" data-price="13.00">S</button>
+                                    <button class="size-btn" data-price="18.00">M</button>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$13.00</span>
@@ -78,8 +79,8 @@
                                 Oil, Lemon.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn active">S</button><button
-                                        class="size-btn">M</button></div>
+                                <div class="sizes"><button class="size-btn active" data-price="9.00">S</button><button
+                                        class="size-btn" data-price="14.00">M</button></div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$9.00</span>
@@ -98,12 +99,12 @@
                         </div>
                         <div class="card-content">
                             <h3>Cheesy Fries</h3>
-                            <p class="card_ingredients"><strong>Ingredients:</strong> Potatoes, Oil, Herbs, Mozzarella,
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Potatoes, Oil, Herbs, Mozzarella,ط
                                 Cheese sauce.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn">M</button><button
-                                        class="size-btn active">L</button></div>
+                                <div class="sizes"><button class="size-btn active" data-price="10.00">M</button><button
+                                        class="size-btn" data-price="15.00">L</button></div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$10.00</span>
@@ -122,12 +123,13 @@
                         </div>
                         <div class="card-content">
                             <h3>Manakish</h3>
-                            <p class="card_ingredients"><strong>Ingredients:</strong> Dough, Za’atar, Cheese, Olive Oil,
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Dough, Za’atar, Cheese, Olive
+                                Oil,
                                 Red pepper.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn active">S</button><button
-                                        class="size-btn">M</button></div>
+                                <div class="sizes"><button class="size-btn active" data-price="5.00">S</button><button
+                                        class="size-btn" data-price="8.00">M</button></div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$5.00</span>
@@ -156,8 +158,8 @@
                                 Bechamel, Mozzarella.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn">M</button><button
-                                        class="size-btn active">L</button></div>
+                                <div class="sizes"><button class="size-btn" data-price="21.00">M</button><button
+                                        class="size-btn active" data-price="28.00">L</button></div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$21.00</span>
@@ -180,8 +182,8 @@
                                 Onions, Peppers, Spices.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn active">S</button><button
-                                        class="size-btn">M</button></div>
+                                <div class="sizes"><button class="size-btn active" data-price="10.00">S</button><button
+                                        class="size-btn" data-price="15.00">M</button></div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$10.00</span>
@@ -204,8 +206,8 @@
                                 Vegetables, Broth, Turmeric.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn">M</button><button
-                                        class="size-btn active">L</button></div>
+                                <div class="sizes"><button class="size-btn" data-price="18.00">M</button><button
+                                        class="size-btn active" data-price="25.00">L</button></div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$18.00</span>
@@ -224,12 +226,14 @@
                         </div>
                         <div class="card-content">
                             <h3>Shawarma</h3>
-                            <p class="card_ingredients"><strong>Ingredients:</strong> Chicken, Yogurt, Garlic, Lemon,
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Chicken, Yogurt,
+                                Garlic,
+                                Lemon,
                                 Spices, Bread.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn active">S</button><button
-                                        class="size-btn">M</button></div>
+                                <div class="sizes"><button class="size-btn active" data-price="9.00">S</button><button
+                                        class="size-btn" data-price="14.00">M</button></div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$9.00</span>
@@ -258,7 +262,8 @@
                                 Flour, Cocoa powder.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn active">S</button></div>
+                                <div class="sizes"><button class="size-btn active" data-price="5.00">S</button><button
+                                        class="size-btn" data-price="8.00">M</button></div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$5.00</span>
@@ -281,8 +286,8 @@
                                 Mango, Whipped cream.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn active">M</button><button
-                                        class="size-btn">L</button></div>
+                                <div class="sizes"><button class="size-btn active" data-price="6.00">S</button><button
+                                        class="size-btn" data-price="10.00">M</button></div>
                             </div>
                             <div class="card-footer">
                                 <span class="price">$6.00</span>
@@ -305,9 +310,9 @@
                                 Chocolate topping.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn active">S</button><button
-                                        class="size-btn">M</button></div>
-                            </div>
+                                <div class="sizes"><button class="size-btn active" data-price="5.00">S</button><button
+                                        class="size-btn" data-price="8.00">M</button></div>
+                            </div>>
                             <div class="card-footer">
                                 <span class="price">$5.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
@@ -325,12 +330,15 @@
                         </div>
                         <div class="card-content">
                             <h3>Pancakes</h3>
-                            <p class="card_ingredients"><strong>Ingredients:</strong> Flour, Milk, Eggs, Sugar, Baking
+                            <p class="card_ingredients"><strong>Ingredients:</strong> Flour, Milk, Eggs, Sugar,
+                                Baking
                                 powder, Syrup.</p>
                             <div class="size-selection">
                                 <span>Size:</span>
-                                <div class="sizes"><button class="size-btn active">S</button></div>
+                                <div class="sizes"><button class="size-btn active" data-price="3.00">S</button><button
+                                        class="size-btn" data-price="5.00">M</button></div>
                             </div>
+
                             <div class="card-footer">
                                 <span class="price">$3.00</span>
                                 <button class="add-to-dish">Add to Dish</button>
@@ -339,12 +347,13 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </section>
         </main>
     </div>
     <script>
-      document.querySelectorAll('.wishlist').forEach(button => {
+        document.querySelectorAll('.wishlist').forEach(button => {
             button.addEventListener('click', function () {
                 this.classList.toggle('active');
                 const icon = this.querySelector('i');
@@ -403,11 +412,22 @@
                 }
             });
         });
+        const sizeBtns = document.querySelectorAll('.size-btn');
+
+        sizeBtns.forEach(btn => {
+            btn.addEventListener('click', function () {
+                const card = this.closest('.card-content');
+                card.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const newPrice = this.getAttribute('data-price');
+                const priceElement = card.querySelector('.price');
+                priceElement.textContent = `$${newPrice}`;
+            });
+        });
     </script>
-     <footer>
-            <p>&copy;2026 Cook Zone. Created by Helwan University Students.</p>
-     </footer>
-    <script src="main.js"></script>
+    <footer>
+        <p>&copy;2026 Cook Zone. Created by Helwan University Students.</p>
+    </footer>
 </body>
 
 </html>
