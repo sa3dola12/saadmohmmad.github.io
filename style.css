@@ -544,9 +544,6 @@ h4 {
 .input-box input:focus {
     border-color: #7a1f1f;
 }
-.contact-form {
-    margin-right: 55px;
-}
 .back{
     background-image: url("Images/img.jfif");
     background-size: cover;
